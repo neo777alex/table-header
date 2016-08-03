@@ -1,0 +1,46 @@
+div, header, p {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: url("../images/Layer-11.png") 40% 50% no-repeat;
+  overflow: hidden;
+}
+
+.hand {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+.table {
+  background: url("../images/Layer-11.png") 100% 100% no-repeat;
+  background-color: #fff;
+  width: 100%;
+  height: 290px;
+  display: table;
+  font-family: 'Avantgarde Gothic';
+}
+
+.td {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0;
+}
+
+.list-fhoto {
+  vertical-align: middle;
+}
+
+.text {
+  margin-top: -10px;
+}
+
+@media (max-width: 520px) {
+  .td {
+    padding: 0;
+    display: block;
+  }
+}
